@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1664470134992,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 2,
+    "timestamp": 1664470134992,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 3,
+    "timestamp": 1664470134992,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 4,
+    "timestamp": 1664470134992,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 5,
+    "timestamp": 1664470134992,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 6,
+    "timestamp": 1664470657446,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 7,
+    "timestamp": 1664470680808,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 8,
+    "timestamp": 1664470757362,
+    "nombre": "MacBook MacBook",
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 9,
+    "timestamp": 1664470766891,
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  },
+  {
+    "id": 10,
+    "timestamp": 1664470787469,
+    "descripcion": "Computadora de 14 pulgadas",
+    "codigo": "20222809",
+    "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
+    "precio": 52999,
+    "stock": "10"
+  }
+]
