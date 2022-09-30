@@ -1,9 +1,8 @@
 [
   {
     "id": 1,
-    "timestamp": 1664470134992,
-    "nombre": "MacBook MacBook",
-    "descripcion": "Computadora de 14 pulgadas",
+    "timestamp": 1664490846422,
+    "descripcion": "Computadora Dell",
     "codigo": "20222809",
     "foto": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110_GEO_MX?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633657358000",
     "precio": 52999,

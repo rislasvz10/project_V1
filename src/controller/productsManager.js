@@ -3,7 +3,7 @@ const fs = require("fs");
 const pathToFile = "./src/data/products.json";
 
 class ProductsManager {
-  validacion = (product) => {
+  Validacion = (product) => {
     if (
       !product.timestamp ||
       !product.nombre ||
@@ -43,7 +43,7 @@ class ProductsManager {
   };
 
   saveProduct = (product) => {
-    if (this.validacion(product))
+    if (this.Validacion(product))
       if (fs.existsSync(pathToFile)) {
         let data = fs.readFileSync(pathToFile, "utf-8");
         let products = JSON.parse(data);
@@ -72,6 +72,7 @@ class ProductsManager {
         if (item.id === id) {
           return {
             id,
+            timestamp: Date.now(),
             ...product,
           };
         } else return item;
