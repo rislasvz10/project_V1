@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
   
 
 router.get("/:id/productos", (req, res) => {
-    let result = manager.findByIdCart(req.params.id);
+    let result = manager.findByIdCart(req.params.id, req.params.id);
     res.send(result);
 });
 
