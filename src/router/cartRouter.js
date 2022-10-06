@@ -16,7 +16,7 @@ router.get("/:id/productos", (req, res) => {
 });
 
 
-router.post('/', (req, res) => {
+router.post('/:id/productos', (req, res) => {
     let result = manager.saveCart(req.body)
     res.send(result)
 });

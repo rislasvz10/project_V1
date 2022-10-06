@@ -2,6 +2,9 @@ const fs = require("fs");
 
 const pathToFile = "./src/data/products.json";
 
+
+
+
 class ProductsManager {
   Validacion = (product) => {
     if (
