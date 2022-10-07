@@ -11,13 +11,13 @@ router.get("/", (req, res) => {
   
 
 router.get("/:id/productos", (req, res) => {
-    let result = manager.findByIdCart(req.params.id, req.params.id);
+    let result = manager.findByIdCart(req.params.id);
     res.send(result);
 });
 
 
 router.post('/:id/productos', (req, res) => {
-    let result = manager.saveCart(req.body)
+    let result = manager.addProducts(req.body, req.params.id);
     res.send(result)
 });
 
