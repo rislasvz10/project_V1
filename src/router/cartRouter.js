@@ -9,18 +9,17 @@ router.get("/", (req, res) => {
     res.send(result);
 });
   
-
-router.get("/:id/productos", (req, res) => {
+/********************************************************/
+router.get('/:id/productos', (req, res) => {
     let result = manager.findByIdCart(req.params.id);
     res.send(result);
 });
-
-
+/********************************************************/
 router.post('/:id/productos', (req, res) => {
-    let result = manager.addProducts(req.body, req.params.id);
+    let result = manager.addProduct(req.params.id, req.body);
     res.send(result)
 });
-
+/********************************************************/
 
 router.put('/:id', (req, res) => {
     let result = manager.updateCart(req.params.id, req.body)

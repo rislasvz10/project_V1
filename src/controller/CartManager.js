@@ -3,6 +3,7 @@ const fs = require("fs");
 const pathToFile = "./src/data/carts.json";
 
 class CartManager {
+
   findAllCarts() {
     if (fs.existsSync(pathToFile)) {
       let data = fs.readFileSync(pathToFile, "utf-8");
@@ -53,36 +54,25 @@ class CartManager {
     }
   }
 
-
-  addProducts(id, p) {
-    carts = this.findAllCarts();
-    const index = carts.findIndex((c) => c.id === id);
-    const newProd = p;
-    if (index === -1) {
-      return { error: 400, descripcion: `No existe el carrito de id ${id}` };
-    }
-    const cartProducts = carts[index].productos;
-    const cartProdLength = cartProducts.length;
-    if (cartProdLength > 0) {
-      newProd.id = cartProducts[cartProdLength - 1].id + 1;
-    } else {
-      newProd.id = 1;
-    }
-    newProd.timestamp = Date.now();
-    cartProducts.push(newProd);
-    try {
-      fs.writeFileSync(pathToFile, JSON.stringify(carts, null, 2));
-      return newProd;
-    } catch (err) {
-      return { status: "error", message: err.message };
+  addProduct = (id, product) => {
+    if (fs.existsSync(pathToFile)){
+      id = parseInt(id);
+      let data = fs.readFileSync(pathToFile, "utf-8");
+      let car = JSON.parse(data);
+      let res = car.find((item) => item.id === id);
+      if(!res){
+        return { status: "error", message: "Error no existe el carrito" };
+      }
+      const cartProducts =  res.productos;
+      let cartProdLength = cartProducts.length
+      if(cartProdLength > 0){
+        id = cartProducts[cartProducts.length - 1].id + 1
+        
+      } else {
+        id = 1;
+      }
+      console.log(cartProducts)
     }
   }
-
-  
-
-  updateCart = (id, cart) => {};
-
-  delete = (id) => {};
 }
-
 module.exports = CartManager;
